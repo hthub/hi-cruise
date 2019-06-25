@@ -46,7 +46,7 @@ Primary use:	Retail
 # Text: #37353d
 # Light text: #999ca9
 # Dark text: #232a34
-# Link text: #ef595a
+# Link text: #eaba7d - before #ef595a
 # Hover text: #878fd6
 # */
 
@@ -1856,7 +1856,7 @@ select {
     color: #999ca9;
 }
 .scheme_white .top_panel_contacts_right strong {
-    color: #ef595a;
+    color: #eaba7d;
 }
 .scheme_red .top_panel_contacts_right {
     color: #fff;
@@ -3364,7 +3364,7 @@ blockquote {
     line-height: 1.333em;
     font-style: italic;
     color: #fff;
-    background: #ef595a;
+    background: #eaba7d;
 }
 blockquote,
 blockquote p {
@@ -6442,7 +6442,7 @@ columns_wrap,
 .ps_single_status {
     position: absolute;
     padding: 0.222em 1em 0.278em;
-    background: #ef595a;
+    background: #eaba7d;
     font-size: 1.286em;
     font-weight: bold;
     text-transform: uppercase;
@@ -6463,7 +6463,7 @@ columns_wrap,
     position: relative;
     float: left;
     margin-right: 1em;
-    background: #ef595a;
+    background: #eaba7d;
 }
 .ps_single_info .sc_property_info_list {
     padding-top: 1em;
@@ -6471,7 +6471,7 @@ columns_wrap,
 /* Custom */
 
 h1 b {
-    color: #ef595a;
+    color: #eaba7d;
 }
 .linear_gradient {
     background: rgba(240, 241, 245, 1);
@@ -6709,7 +6709,7 @@ h1 b {
 .estate .esg-filterbutton.selected {
     border: none;
     color: #fff;
-    background: #ef595a;
+    background: #eaba7d;
 }
 .estate .esg-navigationbutton:hover * {
     color: #333;
@@ -6778,7 +6778,7 @@ h1 b {
 .scheme_dark .estate .esg-cartbutton-order:hover,
 .scheme_dark .estate .esg-filterbutton.selected {
     border-color: none;
-    color: #ef595a;
+    color: #eaba7d;
     background: #fff;
 }
 .slider_wrap {
@@ -7108,7 +7108,7 @@ h6.margin_bottom_large {
     background-size: cover ;
 }
 .back_image_2 {
-    background-image: url(../images/1170x659.jpg?id=204) ;
+    background-image: url(../images/yatch/img-h659.jpg) ;
     background-position: center ;
     background-repeat: no-repeat ;
     background-size: cover ;
