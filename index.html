@@ -170,23 +170,18 @@
                         <div class="sc_property_search">
                            <form method="get" action="#">
                               <div class="sc_ps_status">
-                                 <select name="ps_status">
-                                    <option value="-1">Select Package</option>
-                                    <option value="sale">Eugene 1</option>
-                                    <option value="rent">Eugene</option>
+                                 <select name="type" id="selectPackage">
+                                    <option value="-1">Select Package Type</option>
+                                    <option value="1">Eugene 1</option>
+                                    <option value="2">Eugene</option>
                                  </select>
                               </div>
                               <div class="sc_ps_location">
-                                 <select name="ps_location">
-                                    <option value="-1">Yatch Package</option>
-                                    <option value="Upper East Side">Prestige Package</option>
-                                    <option value="Downtown">Deluxe Package</option>
-                                    <option value="Brooklyn">Royal</option>
-                                    <option value="Queens">Gold</option>
-                                    <option value="Staten Island">Silver</option>
+                                 <select name="package" id="listPackage">
+                                    <option value="-1">First Select Package Type</option>
                                  </select>
                               </div>
-                              <div class="sc_ps_type">
+                              <!--div class="sc_ps_type">
                                  <input name="name" type="text" placeholder="Enter name">
                               </div>
                               <div class="sc_ps_style">
@@ -197,8 +192,8 @@
                               </div>
                               <div class="sc_ps_bathrooms">
                                  <input type="number" name="seats" placeholder="Number of seats">
-                              </div>
-                              <div class="sc_ps_area">
+                              </div-->
+                              <!--div class="sc_ps_area">
                                  <div class="ps_area ps_range_slider">
                                  </div>
                               </div>
@@ -206,7 +201,7 @@
                                  <div class="ps_price ps_range_slider">
                                     
                                  </div>
-                              </div>
+                              </div-->
                               <div class="sc_ps_submit"><input type="submit" class="sc_button sc_button_box sc_button_style_style2" value="Make reservation"></div>
                            </form>
                         </div>
@@ -658,5 +653,23 @@ needs, we have something that will excite your senses.
       <script type='text/javascript' src='js/vendor/skrollr.min.js'></script>
       <script type='text/javascript' src='js/vendor/swiper/swiper.min.js'></script>
       
+      <script>
+          $(document).ready(function() {
+
+              $('#selectPackage').change(function(e) {
+                  const target = $(e.target);
+                  const package = target.val();
+                  
+                  const packages = {
+                      1: [{id: -1, name: "Please Yatch Type"}, {id: 1, name: "Prestige Package"}, {id: 2, name: "Deluxe Package"}, {id: 3, name: "Royal Package"}],
+                      2: [{id: -1, name: "Please Package"}, {id: 4, name: "Silver Package"}, {id: 5, name: "Gold Package"}],
+                  }
+
+                  const options = packages[package].map( item => '<option name="' + item.id + '">' + item.name + '</option>' );
+
+                  $('#listPackage').html(options);
+              })
+          })
+      </script>
    </body>
 </html>
