@@ -1,2 +1,237 @@
 /* CSS-file with custom styles - don't delete this file and this rule!!! */
-.custom_rule { color: inherit; }
+.custom_rule {
+  color: inherit;
+}
+.content_wrap {
+  position: relative;
+  width: 85em;
+}
+.content_wrap_inner {
+  width: 100%;
+  position: relative;
+  margin: 0px;
+  float: left;
+  display: block;
+  clear: none;
+}
+.row,
+.columns_wrap {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+p {
+  float: left;
+  position: relative;
+  display: block;
+}
+p.center-phrase {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Montserrat";
+  line-height: 36px;
+  font-weight: 200;
+  padding: 2em;
+}
+.logo a {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+.top_panel_logo {
+  margin: 0px;
+  width: 100%;
+}
+.top_panel_wrap .logo_main {
+  height: 50px;
+  margin: 0px auto;
+  float: none;
+  position: relative;
+  display: block;
+  padding: 10px;
+}
+.top_panel_menu {
+  float: left;
+  margin: 0px auto;
+  display: block;
+  position: relative;
+  width: 100%;
+  background: linear-gradient(rgb(218, 189, 57), rgb(235, 200, 50));
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.34);
+  height: 55px;
+}
+.menu_show .menu_main_nav_area {
+  display: block;
+  width: 100%;
+  margin: 0px;
+  position: relative;
+  float: left;
+}
+.menu_main_nav_area {
+  position: relative;
+  z-index: 1000;
+  display: block;
+}
+.responsive_menu .menu_main_nav {
+  display: block;
+  width: 45em;
+  margin: 0px auto;
+  position: relative;
+  float: none;
+}
+.responsive_menu .menu_main_nav_area {
+  height: auto;
+  float: left;
+  width: 100%;
+}
+.slider_engine_revo {
+  margin-top: -2em;
+  z-index: 0;
+  position: relative;
+}
+.top_panel_wrap.top_panel_style_1 {
+  z-index: 3;
+  background: none;
+}
+.header-bg {
+  background: none;
+}
+.scheme_white .top_panel_wrap_inner {
+  background: none;
+}
+.menu_main_nav > li > a {
+  font-weight: 600;
+}
+.slider_wrap .rev_slider_wrapper {
+  height: 550px !important;
+}
+.tp-fullwidth-forcer {
+  width: 100%;
+  height: 550px !important;
+}
+.fullwidthbanner-container .fullwidthabanner {
+  height: 550px !important;
+}
+div.defaultimg {
+  background-size: contain !important;
+  width: auto !important;
+  height: 100% !important;
+}
+.sc_button_box.sc_button_style_style2 {
+  background: linear-gradient(rgb(218, 189, 57), rgb(235, 200, 50));
+  font-weight: 600;
+}
+.tp-loop-wrap {
+  position: absolute;
+  width: 100%;
+}
+.sc_property_wrap {
+  width: 100%;
+}
+.sc_property.sc_property_style_property-4 .sc_property_info .sc_property_title {
+  margin: 0px auto;
+  float: none;
+  position: relative;
+  display: none;
+  width: 50em;
+  text-align: center;
+}
+.tp-parallax-wrap {
+  left: 0% !important;
+  bottom: 10em;
+  top: auto !important;
+  z-index: 1;
+  width: 100%;
+}
+.tp-mask-wrap {
+  width: 100% !important;
+}
+.sc_property.sc_property_style_property-4
+  .sc_property_info
+  .sc_property_title
+  .sc_property_title_address_1 {
+  font-family: inherit !important;
+  font-size: 2.43em !important;
+}
+.rev_slider .sc_property.sc_property_style_property-4 {
+  margin-left: 0% !important;
+}
+.ps_header {
+  background: #000;
+  margin-top: 0px;
+}
+.scheme_dark select {
+  background: #25232a;
+  margin: 0;
+}
+.sc_property_search .sc_ps_status,
+.sc_property_search .sc_ps_location,
+.sc_property_search .sc_ps_type,
+.sc_property_search .sc_ps_style,
+.sc_property_search .sc_ps_bedrooms,
+.sc_property_search .sc_ps_bathrooms,
+.sc_property_search .sc_ps_area,
+.sc_property_search .sc_ps_price,
+.sc_property_search .sc_ps_submit {
+  margin-right: 1%;
+}
+.sc_property.sc_property_style_property-4
+  .sc_property_info
+  .sc_property_title
+  .sc_property_title_address_2 {
+  font-family: Open Sans;
+  font-size: 1.514em;
+  font-weight: 400;
+  line-height: 2em;
+  letter-spacing: 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.scheme_white .top_panel_inner_style_1 .menu_main_responsive_button {
+  display: none;
+}
+.top_panel_wrap ul {
+  margin: 0px auto;
+  display: block;
+  float: none;
+  width: 45em;
+}
+.contacts_wrap .logo img {
+  margin: 0px auto;
+  float: none;
+}
+.column-1_2,
+.column-2_4,
+.column-3_6,
+.column-4_8,
+.column-5_10,
+.column-6_12 {
+  float: left;
+}
+img.set-base {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+.caption-box {
+  position: relative;
+  width: 100%;
+  display: block;
+  z-index: 1;
+  text-align: center;
+  padding: 32px;
+  background: #000;
+  color: #fff;
+  min-height: 350px;
+  font-size: 18px;
+}
+.caption-box h4 {
+  color: #fff;
+  font-weight: 600;
+  font-family: Montserrat;
+}
+.hide-dom {
+  overflow: hidden;
+}
