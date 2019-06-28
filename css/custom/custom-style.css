@@ -1,2 +1,153 @@
 /* CSS-file with custom styles - don't delete this file and this rule!!! */
-.custom_rule { color: inherit; }
+.custom_rule {
+  color: inherit;
+}
+.content_wrap {
+  position: relative;
+  width: 85em;
+}
+.content_wrap_inner {
+  width: 100%;
+  position: relative;
+  margin: 0px;
+  float: left;
+  display: block;
+  clear: none;
+}
+.row,
+.columns_wrap {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+p {
+  float: left;
+  position: relative;
+  display: block;
+}
+p.center-phrase {
+  text-align: center;
+  font-size: 25px;
+  line-height: 36px;
+  font-weight: 600;
+  padding: 2em;
+}
+.logo a {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+.top_panel_logo {
+  margin: 0px;
+  width: 100%;
+}
+.top_panel_wrap .logo_main {
+  height: 50px;
+  margin: 0px auto;
+  float: none;
+  position: relative;
+  display: block;
+  padding: 10px;
+}
+.top_panel_menu {
+  float: left;
+  margin: 0px auto;
+  display: block;
+  position: relative;
+  width: 100%;
+  background: linear-gradient(rgb(218, 189, 57), rgb(235, 200, 50));
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.34);
+}
+.menu_show .menu_main_nav_area {
+  display: block;
+  width: 100%;
+  margin: 0px;
+  position: relative;
+  float: left;
+}
+.top_panel_wrap ul {
+  display: block;
+  width: 45em;
+  margin: 0px auto;
+  position: relative;
+  float: none;
+}
+.slider_engine_revo {
+  margin-top: -2em;
+  z-index: 0;
+  position: relative;
+}
+.top_panel_wrap.top_panel_style_1 {
+  z-index: 3;
+  background: none;
+}
+.header-bg {
+  background: none;
+}
+.scheme_white .top_panel_wrap_inner {
+  background: none;
+}
+.menu_main_nav > li > a {
+  font-weight: 600;
+}
+.slider_wrap .rev_slider_wrapper {
+  height: 520px !important;
+}
+.tp-fullwidth-forcer {
+  width: 100%;
+  height: 520px !important;
+}
+.fullwidthbanner-container .fullwidthabanner {
+  height: 520px !important;
+}
+.tp-bgimg defaultimg {
+  background-size: contain !important;
+  width: auto !important;
+  height: 100%;
+}
+.sc_button_box.sc_button_style_style2 {
+  background: linear-gradient(rgb(218, 189, 57), rgb(235, 200, 50));
+  font-weight: 600;
+}
+.tp-loop-wrap {
+  position: absolute;
+  width: 100%;
+}
+.sc_property_wrap {
+  width: 100%;
+}
+.sc_property.sc_property_style_property-4 .sc_property_info .sc_property_title {
+  margin: 0px auto;
+  float: none;
+  position: relative;
+  display: block;
+  width: 50em;
+  text-align: center;
+}
+.tp-parallax-wrap {
+  left: 0% !important;
+  bottom: 10em;
+  top: auto !important;
+  z-index: 1;
+  width: 100%;
+}
+.tp-mask-wrap {
+  width: 100% !important;
+}
+.sc_property.sc_property_style_property-4
+  .sc_property_info
+  .sc_property_title
+  .sc_property_title_address_1 {
+  font-family: inherit !important;
+  font-size: 2.43em !important;
+}
+.rev_slider .sc_property.sc_property_style_property-4 {
+  margin-left: 0% !important;
+}
+.ps_header {
+  background: #000;
+  margin-top: 0px;
+}
+.scheme_dark select {
+  background: #25232a;
+  margin: 0;
+}
