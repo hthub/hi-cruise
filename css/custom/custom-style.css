@@ -188,3 +188,13 @@ p.center-phrase {
 .scheme_white .top_panel_inner_style_1 .menu_main_responsive_button {
   display: none;
 }
+.top_panel_wrap ul {
+  margin: 0px auto;
+  display: block;
+  float: none;
+  width: 45em;
+}
+.contacts_wrap .logo img {
+  margin: 0px auto;
+  float: none;
+}
