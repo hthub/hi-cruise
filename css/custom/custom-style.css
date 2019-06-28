@@ -130,7 +130,7 @@ p.center-phrase {
   margin: 0px auto;
   float: none;
   position: relative;
-  display: block;
+  display: none;
   width: 50em;
   text-align: center;
 }
@@ -197,4 +197,39 @@ p.center-phrase {
 .contacts_wrap .logo img {
   margin: 0px auto;
   float: none;
+}
+.column-1_2,
+.column-2_4,
+.column-3_6,
+.column-4_8,
+.column-5_10,
+.column-6_12 {
+  float: left;
+}
+img.set-base {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+.caption-box {
+  position: relative;
+  width: 100%;
+  display: block;
+  z-index: 1;
+  text-align: center;
+  padding: 32px;
+  background: #000;
+  color: #fff;
+  min-height: 350px;
+  font-size: 18px;
+}
+.caption-box h4 {
+  color: #fff;
+  font-weight: 600;
+}
+.hide-dom {
+  overflow: hidden;
 }
