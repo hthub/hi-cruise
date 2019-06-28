@@ -173,3 +173,15 @@ p.center-phrase {
 .sc_property_search .sc_ps_submit {
   margin-right: 1%;
 }
+.sc_property.sc_property_style_property-4
+  .sc_property_info
+  .sc_property_title
+  .sc_property_title_address_2 {
+  font-family: Open Sans;
+  font-size: 1.514em;
+  font-weight: 400;
+  line-height: 2em;
+  letter-spacing: 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
