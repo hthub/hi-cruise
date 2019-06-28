@@ -185,6 +185,6 @@ p.center-phrase {
   color: #fff;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.scheme_white .top_panel_inner_style_1 .menu_main_responsive_button:hover {
+.scheme_white .top_panel_inner_style_1 .menu_main_responsive_button {
   display: none;
 }
