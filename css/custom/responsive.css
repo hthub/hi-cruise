@@ -3854,6 +3854,7 @@ Very common low res
 }
 
 @media (max-width: 960px) {
+
   .rev_slider .sc_property.sc_property_style_property-6 {
     padding-top: 5em !important;
   }
@@ -3903,7 +3904,16 @@ Very common low res
   }
   .BConsult {
     display: block !important;
-  }
+	}
+	.column-1_2,
+	.column-2_4,
+	.column-3_6,
+	.column-4_8,
+	.column-5_10,
+	.column-6_12 {
+		float: left;
+		width: 100%;
+	}	
 }
 
 @media (max-width: 768px) {
@@ -3983,7 +3993,11 @@ Very common low res
 
   .menu_main_nav_area {
     display: none !important;
-  }
+	}
+		
+.scheme_white .top_panel_inner_style_1 .menu_main_responsive_button {
+  display: block;
+}
 }
 
 @media (max-width: 480px) {
