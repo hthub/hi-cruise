@@ -66,9 +66,9 @@ p.center-phrase {
   float: left;
 }
 .menu_main_nav_area {
-position: relative;
-z-index: 1000;
-display: block;
+  position: relative;
+  z-index: 1000;
+  display: block;
 }
 .top_panel_wrap ul {
   display: block;
@@ -78,9 +78,9 @@ display: block;
   float: none;
 }
 .responsive_menu .menu_main_nav_area {
-height: auto;
-float: left;
-width: 100%;
+  height: auto;
+  float: left;
+  width: 100%;
 }
 .slider_engine_revo {
   margin-top: -2em;
@@ -161,4 +161,15 @@ width: 100%;
 .scheme_dark select {
   background: #25232a;
   margin: 0;
+}
+.sc_property_search .sc_ps_status,
+.sc_property_search .sc_ps_location,
+.sc_property_search .sc_ps_type,
+.sc_property_search .sc_ps_style,
+.sc_property_search .sc_ps_bedrooms,
+.sc_property_search .sc_ps_bathrooms,
+.sc_property_search .sc_ps_area,
+.sc_property_search .sc_ps_price,
+.sc_property_search .sc_ps_submit {
+  margin-right: 1%;
 }
