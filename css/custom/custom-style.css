@@ -70,7 +70,7 @@ p.center-phrase {
   z-index: 1000;
   display: block;
 }
-.top_panel_wrap ul {
+.responsive_menu .menu_main_nav {
   display: block;
   width: 45em;
   margin: 0px auto;
@@ -184,4 +184,7 @@ p.center-phrase {
   letter-spacing: 0;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.5);
+}
+.scheme_white .top_panel_inner_style_1 .menu_main_responsive_button:hover {
+  display: none;
 }
