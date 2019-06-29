@@ -1,5 +1,5 @@
 /* CSS-file with custom styles - don't delete this file and this rule!!! */
-.page_content_wrap{
+.page_content_wrap,.contacts_emailer_wrap{
   float:left;
   width:100%;
 }
