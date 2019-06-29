@@ -87,6 +87,8 @@ p.center-phrase {
   margin-top: -2em;
   z-index: 0;
   position: relative;
+  float:left;
+  width:100%;
 }
 .top_panel_wrap.top_panel_style_1 {
   z-index: 3;
