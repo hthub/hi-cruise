@@ -250,11 +250,18 @@ h4.center {
 }
 a.cus-btn {
   background: linear-gradient(rgb(36, 145, 22), rgb(0, 191, 0));
-  padding: 7px 15px;
+  padding: 10px 25px;
   font-weight: 600;
-  border-radius: 3px;
+  border-radius: 36px;
   color: #fff;
-  border: 1px solid #22e425;
+  border: 1px solid #148716;
+  font-size: 16px;
+  margin: 0px auto;
+  display: block;
+  position: relative;
+  float: none;
+  text-align: center;
+  width: 12em;
 }
 a.cus-btn:hover {
   color: #fff !important;
@@ -265,4 +272,7 @@ a.cus-btn:hover {
   float: none;
   margin: 0px auto;
   position: relative;
+}
+.center {
+  text-align: center;
 }
