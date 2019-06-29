@@ -146,6 +146,8 @@ p.center-phrase {
 .ps_header {
   background: #000;
   margin-top: 0px;
+  float: left;
+  width: 100%;
 }
 .scheme_dark select {
   background: #25232a;
