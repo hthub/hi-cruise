@@ -1,4 +1,8 @@
 /* CSS-file with custom styles - don't delete this file and this rule!!! */
+div{
+  float:left;
+  width:100%;
+}
 .custom_rule {
   color: inherit;
 }
