@@ -276,3 +276,11 @@ a.cus-btn:hover {
 .center {
   text-align: center;
 }
+p.gold-bg{
+text-align: center;
+margin-top: -35px;
+font-size: 20px;
+background: #ccc;
+padding: 19px;
+float: left;
+  border: 1px solid #ecd712;}
