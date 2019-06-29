@@ -1,5 +1,5 @@
 /* CSS-file with custom styles - don't delete this file and this rule!!! */
-div{
+.page_content_wrap{
   float:left;
   width:100%;
 }
