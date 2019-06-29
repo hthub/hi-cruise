@@ -1,22 +1,26 @@
 /* CSS-file with custom styles - don't delete this file and this rule!!! */
-.page_content_wrap{
-  float:left;
-  width:100%;
+.page_content_wrap {
+  float: left;
+  width: 100%;
 }
-.contacts_emailer_wrap{
-  float:left;
-  width:100%;
+.contacts_emailer_wrap {
+  float: left;
+  width: 100%;
 }
 .contacts_wrap {
-    float: left;
-    width: 100%;
+  float: left;
+  width: 100%;
+}
+.copyright_wrap {
+  float: left;
+  width: 100%;
+}
+.sc_parallax {
+  float: left;
+  width: 100%;
 }
 .custom_rule {
   color: inherit;
-}
-.sc_parallax{
-  float: left;
-  width: 100%;
 }
 .content_wrap {
   position: relative;
@@ -103,8 +107,8 @@ p.center-phrase {
   margin-top: -2em;
   z-index: 0;
   position: relative;
-  float:left;
-  width:100%;
+  float: left;
+  width: 100%;
 }
 .top_panel_wrap.top_panel_style_1 {
   z-index: 3;
@@ -240,4 +244,25 @@ img.set-base {
 }
 .hide-dom {
   overflow: hidden;
+}
+h4.center {
+  text-align: center;
+}
+a.cus-btn {
+  background: linear-gradient(rgb(36, 145, 22), rgb(0, 191, 0));
+  padding: 7px 15px;
+  font-weight: 600;
+  border-radius: 3px;
+  color: #fff;
+  border: 1px solid #22e425;
+}
+a.cus-btn:hover {
+  color: #fff !important;
+  background: linear-gradient(rgb(0, 191, 0), rgb(36, 145, 22));
+}
+.section-center {
+  width: 60em;
+  float: none;
+  margin: 0px auto;
+  position: relative;
 }
