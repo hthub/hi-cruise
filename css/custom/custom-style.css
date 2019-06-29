@@ -282,7 +282,7 @@ margin-top: -35px;
 font-size: 20px;
 background: linear-gradient(#ecc30c, #fedf27);
 padding: 19px;
-width: 57.5em;
+/* width: 100%; /*57.5em;*/
 float: left;
 border: 1px solid #d0bd10;
 }
@@ -290,5 +290,11 @@ border: 1px solid #d0bd10;
 @media(max-width: 992px) {
   .contacts_wrap h5 {
     margin-top: 20px;
+  }
+  p.gold-bg{
+    flex: 1;
+    font-weight: 200;
+    font-size: 1.3em;
+    width: auto;
   }
 }
