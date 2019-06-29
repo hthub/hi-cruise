@@ -7,6 +7,10 @@
   float:left;
   width:100%;
 }
+.contacts_wrap {
+    float: left;
+    width: 100%;
+}
 .custom_rule {
   color: inherit;
 }
