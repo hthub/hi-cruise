@@ -280,7 +280,9 @@ p.gold-bg{
 text-align: center;
 margin-top: -35px;
 font-size: 20px;
-background: #ccc;
+background: linear-gradient(#ecc30c, #fedf27);
 padding: 19px;
+width: 57.5em;
 float: left;
-  border: 1px solid #ecd712;}
+border: 1px solid #d0bd10;
+}
