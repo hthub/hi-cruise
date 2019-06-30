@@ -59,6 +59,7 @@ p.gold-bg {
   background: linear-gradient(#ecc30c, #fedf27);
   border: 1px solid #d0bd10;
   font-weight: 700;
+  width: 70%;
 }
 .logo a {
   width: 100%;
