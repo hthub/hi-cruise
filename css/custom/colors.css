@@ -29,15 +29,16 @@ h3 {
   margin-bottom: 0.633em;
 }
 h4 {
-  font-family: "Nunito Sans", Arial, Helvetica, sans-serif; /* font-family: Montserrat; */
+  /* font-family: "Nunito Sans", Arial, Helvetica, sans-serif; */
+  font-family: Montserrat; 
   font-size: 1.571em;
-  font-weight: 400;
+  font-weight: 500;
   line-height: normal;
   margin-top: 1em;
   margin-bottom: 1em;
 }
 h5 {
-  ffont-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+  font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
   font-size: 1em;
   font-weight: 400;
   line-height: normal;
