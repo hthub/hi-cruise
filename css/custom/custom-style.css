@@ -51,6 +51,14 @@ p.center-phrase {
   line-height: 36px;
   font-weight: 200;
   padding: 2em;
+  margin: 0px auto;
+  float: none;
+}
+p.gold-bg {
+  font-size: 20px;
+  background: linear-gradient(#ecc30c, #fedf27);
+  border: 1px solid #d0bd10;
+  font-weight: 700;
 }
 .logo a {
   width: 100%;
@@ -93,7 +101,7 @@ p.center-phrase {
 }
 .responsive_menu .menu_main_nav {
   display: block;
-  width: 60em;
+  width: 45em;
   margin: 0px auto;
   position: relative;
   float: none;
@@ -203,7 +211,7 @@ p.center-phrase {
   margin: 0px auto;
   display: block;
   float: none;
-  width: 60em;
+  width: 45em;
 }
 .contacts_wrap .logo img {
   margin: 0px auto;
@@ -261,7 +269,6 @@ a.cus-btn {
   position: relative;
   float: none;
   text-align: center;
-  width: 12em;
 }
 a.cus-btn:hover {
   color: #fff !important;
@@ -276,25 +283,6 @@ a.cus-btn:hover {
 .center {
   text-align: center;
 }
-p.gold-bg{
-text-align: center;
-margin-top: -35px;
-font-size: 20px;
-background: linear-gradient(#ecc30c, #fedf27);
-padding: 19px;
-/* width: 100%; /*57.5em;*/
-float: left;
-border: 1px solid #d0bd10;
-}
-
-@media(max-width: 992px) {
-  .contacts_wrap h5 {
-    margin-top: 20px;
-  }
-  p.gold-bg{
-    flex: 1;
-    font-weight: 200;
-    font-size: 1.3em;
-    width: auto;
-  }
+footer div.columns_wrap {
+  padding: 15px 0px;
 }
