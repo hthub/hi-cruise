@@ -2979,6 +2979,9 @@ Very common low res
   .sc_slider_swiper .sc_slider_pagination_wrap span {
     width: 1.5em;
   }
+  .top_panel_wrap ul{
+    width: 100%;
+  }
 
   .custom_box_form {
     max-width: 200px;
