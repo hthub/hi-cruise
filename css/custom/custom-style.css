@@ -301,13 +301,3 @@ footer div.columns_wrap {
   a:hover {
   color: #fedf27;
 }
-.responsive_menu .top_panel_style_1 .menu_main_responsive_button,
-.responsive_menu .top_panel_style_2 .menu_main_responsive_button {
-  font-size: 1.5em;
-  display: block;
-  position: relative;
-  padding: 1em 1em;
-  margin: 0;
-  line-height: 1.5em;
-  text-align: left;
-}
