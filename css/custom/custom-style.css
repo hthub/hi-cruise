@@ -421,3 +421,6 @@ section.full-width span {
   color: #fff;
   font-weight: 600;
 }
+a.menu_main_responsive_button {
+  display: none;
+}
