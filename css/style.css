@@ -64,8 +64,8 @@ Primary use:	Retail
     -webkit-font-smoothing: antialiased;
     -ms-word-wrap: break-word;
     word-wrap: break-word;
-    /*font-family: 'Nunito Sans', Arial, Helvetica, sans-serif; */
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    /* font-family: 'Josefin Sans', sans-serif; */
 }
 html,
 body {
