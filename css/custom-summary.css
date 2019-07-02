@@ -67,6 +67,10 @@
     padding-top: 0;
 }
 
+.top_panel_wrap .logo_main {
+    height: 80px;
+}
+
 @media(max-width: 992px) {
     .column-1_4.featurers-lists-item {
         width: 50% !important;
@@ -84,5 +88,9 @@
         margin-top: 0;
         margin-bottom: 0;
         padding-top: 0;
+    }
+
+    .top_panel_wrap .logo_main {
+        height: 50px;
     }
 }
