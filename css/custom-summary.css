@@ -37,3 +37,11 @@
     font-size: 16px;
     padding: 16px 32px;
   }
+
+.sc_services_style_services-1 .sc_services_item .sc_services_item_content {
+    padding-top: 2.5em;
+}
+
+.sml-icon {
+    width: 100px;
+}

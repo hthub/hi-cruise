@@ -47,7 +47,7 @@ p {
 p.center-phrase {
   text-align: center;
   font-size: 25px;
-  font-family: "Montserrat";
+  /*font-family: "Montserrat";*/
   line-height: 36px;
   font-weight: 200;
   padding: 2em;
