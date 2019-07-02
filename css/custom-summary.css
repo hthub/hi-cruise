@@ -41,7 +41,7 @@
   }
 
 .sc_services_style_services-1 .sc_services_item .sc_services_item_content {
-    padding-top: 2.5em;
+    padding-top: 0.5em;
 }
 
 .sml-icon {
@@ -53,4 +53,36 @@
     margin-top: 1em;
     font-size: 1em;
     height: auto;
+    text-transform: capitalize;
+}
+
+.sc_services_style_services-1 .sc_services_item .sc_services_item_title a {
+    text-transform: capitalize;
+    color: black;
+}
+
+ .sc_services_item > a {
+    margin-top: 1em;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+@media(max-width: 992px) {
+    .column-1_4.featurers-lists-item {
+        width: 50% !important;
+    }
+
+    .sc_services_style_services-1 .sc_services_item .sc_services_item_content {
+        padding-top: 1.1em;
+    }
+
+    .sc_services_style_services-1 .sc_services_item {
+        padding-top: 1em;
+    }
+
+    .featurers-list-item.sc_services_item {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+    }
 }
