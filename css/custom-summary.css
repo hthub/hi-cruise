@@ -45,5 +45,12 @@
 }
 
 .sml-icon {
-    width: 100px;
+    width: 50px;
+}
+
+.sc_services_style_services-1 .sc_services_item .sc_services_item_title {
+    margin: 1em 0 0;
+    margin-top: 1em;
+    font-size: 1em;
+    height: auto;
 }
