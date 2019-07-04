@@ -635,3 +635,5 @@ section.full-width div.sc_form_message {
   width: 100%;
   margin-bottom: 7px;
 }
+.responsive_menu .top_panel_style_1 .menu_main_responsive_button, .responsive_menu .top_panel_style_2 .menu_main_responsive_button{
+  display:none;}
