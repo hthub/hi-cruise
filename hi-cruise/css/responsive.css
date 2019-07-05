@@ -501,6 +501,15 @@
   div.item {
     height: 650px;
   }
+  .listings div.item {
+    height: auto;
+  }
+  .carousel-inner.listings {
+    height: auto;
+  }
+  .listings .img-holder {
+    margin-bottom: 30px;
+  }
   div.site-logo {
     width: 35%;
   }

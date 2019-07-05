@@ -188,11 +188,12 @@ div.active > img {
 }
 
 .listings {
-  height: 400px;
+  min-height: 300px;
+  height: auto;
   float: left;
 }
 .listings .item {
-  height: 400px;
+  height: auto;
   padding: 30px 0px;
 }
 .listings span {
@@ -228,9 +229,9 @@ div.active > img {
   display: none;
 }
 .listing-cont {
-  padding: 0%;
-  margin: 5% 10%;
-  width: 80%;
+  padding: 10px;
+  margin: 0px;
+  width: 100%;
   float: left;
 }
 .listing-cont .row {

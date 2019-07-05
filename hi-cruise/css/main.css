@@ -330,7 +330,7 @@ div.product-box-cont:hover p{
     display: block;
     opacity: 1;   
 }
-div.product-box p.opaque{ opacity: 1; margin: 0px;}
+div.product-box p.opaque{ opacity: 1; margin:20px 0px;}
 div.product-box ul{
     margin: 30px 0px;
 }
@@ -425,22 +425,22 @@ h4.no-float{
 
 /* setting some animation presets for the site template */
 @keyframes dropdown{
-    0%{ opacity: 0; margin-top: -50px;}
+    0%{ opacity: 0; margin-top: -500px;}
     100%{opacity: 1; margin-top: 20px;}
 }
 
 @-moz-keyframes dropdown{
-    0%{ opacity: 0; margin-top: -50px;}
+    0%{ opacity: 0; margin-top: -500px;}
     100%{opacity: 1; margin-top: 20px;}
 }
 
 @-webkit-keyframes dropdown{
-    0%{ opacity: 0; margin-top: -50px;}
+    0%{ opacity: 0; margin-top: -500px;}
     100%{opacity: 1; margin-top: 20px;}
 }
 
 @-ms-keyframes dropdown{
-    0%{ opacity: 0; margin-top: -50px;}
+    0%{ opacity: 0; margin-top: -500px;}
     100%{opacity: 1; margin-top: 20px;}
 }
 
@@ -668,3 +668,51 @@ div.form-box{margin: 0px 30%;float: left;display: block;width: 40%; background: 
 display: block; width: 220px; padding: 15px 30px; font-size: 17px; text-align: center; text-transform: capitalize; font-weight: 600;} div.success-notify h3{font-size: 35px;} div.success-notify{padding: 40px; background: #fff; color: #333; text-transform: capitalize; font-size: 18px; margin-bottom: -40px;display: block;float: left;width: 100%;} div.success-msg{ padding: 10% 15%; text-align: center; font-size: 16px;}  div.success-msg i.fa{font-size: 100px;} div.success-msg h3{font-size: 35px;}
 
 .marg-Top-Off-200{margin-top: -200px;}
+.styled-border::after{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    left: 5%;
+    bottom: -25%;
+    display: block;
+    background: transparent;
+    border: 5px solid rgb(255, 204, 120);
+    border-radius: 5px;
+    z-index: -1;
+}
+img.thumbs-list{
+    width:100%;
+    border: 1px solid #eee;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.39);
+    transition: all .5s; 
+    -webkit-transition: all .5s; 
+    -moz-transition: all .5s; 
+    -ms-transition: all .5s; 
+    transition-delay: .1s;
+}
+.img-holder:hover img{
+    padding: 0px;
+}
+.img-holder::after{
+    content: '';
+    display: block;
+    width: 35px;
+    height: 60px;
+    background-image: url(../img/logo-icon.png);
+    background-size: contain;
+    position: relative;
+    z-index: 99999;
+    float: none;
+    margin: 0px auto;
+    margin-top: -75px;    
+    transition: all .5s; 
+    -webkit-transition: all .5s; 
+    -moz-transition: all .5s; 
+    -ms-transition: all .5s; 
+    transition-delay: .1s;
+}
+.img-holder:hover::after{
+    margin-top: 5px;  
+}
