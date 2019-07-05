@@ -137,6 +137,7 @@ span.call-to-action a i {
 }
 .carousel-control i.fa {
   font-size: 30px;
+  line-height: 45px;
 }
 .carousel-inner {
   height: 700px;
@@ -160,6 +161,24 @@ div.item:after {
   left: 50%;
   transform: translate3d(-50%, -50%, 0);
   transition: all 20s linear;
+}
+.controls-btn {
+  width: 100px;
+  display: block;
+  margin: 0px auto;
+  float: none;
+  position: relative;
+  height: 50px;
+}
+.controls-btn a.carousel-control.right {
+  background: none;
+  background-image: none;
+  color: #333;
+}
+.controls-btn a.carousel-control.left {
+  background: none;
+  background-image: none;
+  color: #333;
 }
 div.active > img {
   width: 130% !important;
@@ -232,6 +251,9 @@ div.active > img {
   padding: 10px;
   margin: 0px;
   width: 100%;
+  float: left;
+}
+.listing-cont .carousel {
   float: left;
 }
 .listing-cont .row {

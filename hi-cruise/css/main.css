@@ -425,22 +425,22 @@ h4.no-float{
 
 /* setting some animation presets for the site template */
 @keyframes dropdown{
-    0%{ opacity: 0; margin-top: -500px;}
+    0%{ opacity: 0; margin-top: -100px;}
     100%{opacity: 1; margin-top: 20px;}
 }
 
 @-moz-keyframes dropdown{
-    0%{ opacity: 0; margin-top: -500px;}
+    0%{ opacity: 0; margin-top: -100px;}
     100%{opacity: 1; margin-top: 20px;}
 }
 
 @-webkit-keyframes dropdown{
-    0%{ opacity: 0; margin-top: -500px;}
+    0%{ opacity: 0; margin-top: -100px;}
     100%{opacity: 1; margin-top: 20px;}
 }
 
 @-ms-keyframes dropdown{
-    0%{ opacity: 0; margin-top: -500px;}
+    0%{ opacity: 0; margin-top: -100px;}
     100%{opacity: 1; margin-top: 20px;}
 }
 
@@ -715,4 +715,43 @@ img.thumbs-list{
 }
 .img-holder:hover::after{
     margin-top: 5px;  
+}
+.col-md-6.package-listing{
+    padding:10px 15px;
+}
+.package-listing ul {
+    display: block;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 35px 15px;
+    margin-top: 45px;
+    font-weight: 500;
+    color: #000;
+    background: linear-gradient(rgb(255, 215, 28), rgb(255, 240, 13) 52.94%, rgb(227, 191, 0));
+    text-transform: capitalize;
+    }
+.package-listing li{
+    text-align: center;
+    min-height:40px;
+}
+.package-listing li:after{
+    display: block;
+    margin: 5px auto;
+    width: 200px;
+    height: 1px;
+    background: linear-gradient(89deg, #d6a81a, rgb(131, 97, 25) 50.42%, #dea230);
+    content: '';
+}
+.package-listing span{
+    text-align: center;
+    width: 100%;
+    margin: 39px 0px;
+    float: none;
+    font-size: 29px;
+    font-weight: 600;
+}
+
+.package-listing a.btn{
+    margin: 10px 0px;
+    width: 100%;
 }
