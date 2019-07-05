@@ -299,15 +299,15 @@
   .pad-70,
   .pad-80,
   .pad-90 {
-    padding: 0%;
+    padding: 20px;
   }
   div.booking-modal input.book-btn {
     top: auto;
     bottom: -32%;
   }
   section.banner-inner img {
-    height: 100%;
-    width: auto;
+    width: 100%;
+    height: auto;
   }
   section.banner-inner div {
     margin-top: 85%;
@@ -370,11 +370,8 @@
   .col-xs-9 {
     width: 100%;
   }
-  div.loan_form div.container {
-    height: 90%;
-    overflow: scroll;
-    margin: 2% 0%;
-    width: 100%;
+  .marg-Top-Off-200 {
+    margin-top: -100px;
   }
   .fixed {
     height: 60px;
@@ -417,12 +414,6 @@
   ul.dropdown li:last-child {
     background: #f4f1f1;
   }
-  .loan_form form {
-    width: 100%;
-    display: block;
-    float: left;
-    position: relative;
-  }
   #loader {
     position: fixed;
     bottom: 5%;
@@ -443,12 +434,6 @@
   }
   section.banner-inner {
     height: 420px;
-  }
-  section.banner-inner img {
-    top: auto;
-    bottom: 0%;
-    height: auto;
-    width: 100%;
   }
   section.page div.col-md-8 {
     padding: 0px 15px;
@@ -471,6 +456,10 @@
   }
   section.double-col.inner div.col-md-6 {
     min-height: 450px;
+  }
+  section.banner-inner img {
+    height: 100%;
+    width: auto;
   }
 }
 
@@ -580,16 +569,13 @@
     font-size: 25px;
   }
   section.banner-inner {
-    height: auto;
+    height: 350px;
   }
   section.banner-inner h4 {
     font-size: 32px;
   }
   section.banner-inner div {
     margin-top: 180px;
-  }
-  section.banner-inner-product {
-    height: auto;
   }
   section.banner-inner-product .banner-details {
     position: relative;

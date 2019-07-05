@@ -96,6 +96,12 @@ header::after{
     content: ''; 
     display: block;
 }
+header.fixed{
+    background: #000;
+}
+header.fixed::after{
+    display:none;
+}
 header div{margin: 0px; padding: 0px;} 
 header div.emblem{display: block; position: absolute; width: 14%;border-bottom-left-radius: 100px; border-bottom-right-radius: 100px; padding: 15px; /*background: #2d333b; background: rgb(255, 200, 155);*/ background: #fff; margin-top: -50px;} header div.col-md-4 h3{color: #fff; margin:0px; padding: 0px 19px; float: left; background: rgb(255, 200, 155); line-height: 71px; text-align: center; } .container{padding-right: 0px; padding-left: 0px;} .row{padding: 0px; margin: 0px;} .fa, .fas{font-weight: 100;}
 header.inner{border-bottom: 1px solid #9199b3;} header div.col-md-2{padding: 0px; margin: 0px; text-align: right;} header div.col-md-3{padding: 0px; margin: 0px; text-align: right;} header div.col-md-5{padding: 0px; margin: 0px;}  div.col-md-7{padding: 0px; margin: 0px; } div.col-md-9{padding: 0px; margin: 0px; } header div.socials{padding: 17px 0px; margin-left: 20px;} header img.logo{ width: 60%; float: left; display: block; padding: 5px 10px; position: relative;} div.main-menu{padding: 0px;} .main-menu h4{line-height: 75px; font-family: tahoma; text-transform: capitalize; color: #174e40; float: left; text-align: left;}.main-menu h4 > div{float: left} .main-menu h4 > div.color{color: rgb(255, 200, 155); float: left; display: block; margin-left: 5px;} .main-menu span{font-size: 18px; color: #fff; font-weight: bold; text-transform: capitalize; line-height: 50px;}
@@ -106,7 +112,7 @@ section div.container{padding:0%;}
 footer{position: relative; margin: 0px; bottom: 0px; display: block; float: left; width: 100%; min-height: 200px; padding-top: 40px; border-top: 1px solid rgba(255, 218, 5, 0.47); /*background:linear-gradient(170deg, #ffbc2e, rgb(255, 199, 76) 49.58%, #e0ae63)*/ } div.footer{font-size: 13px;} div.footer .container{background-image: none;} footer a{color: #fff;} footer li a{color: #fff;}
 ul{margin-left: -40px;} li{ width: auto; display: block; position: relative;} 
 nav ul{width: auto; display: block;float: left; position: relative; margin: 0px; margin-left: -40px; z-index: 100;}
-nav li{ list-style:none; float:left; transition:background .5s; -webkit-transition:background .5s; -moz-transition: background .5s; -ms-transition: background .5s;background: none; font-weight: 500;} nav a{padding: 0px 15px; line-height: 50px; display: block; color: #fff;  text-transform:capitalize; font-size:15px;} nav li a:before{content: ''; display: none; width: 0%; height: 2px; background: #fff; position: absolute; left: -20px; transition:all 1s; -webkit-transition:all 1s; -moz-transition: all 1s; -ms-transition: all 1s;} nav li:hover > a:before{display: block; width: 80%; left: 5px;}
+nav li{ list-style:none; float:left; transition:background .5s; -webkit-transition:background .5s; -moz-transition: background .5s; -ms-transition: background .5s;background: none; font-weight: 500;} nav a{padding: 0px 15px; line-height: 50px; display: block; color: #fff;  text-transform:capitalize; font-size:14px;} nav li a:before{content: ''; display: none; width: 0%; height: 2px; background: #fff; position: absolute; left: -20px; transition:all 1s; -webkit-transition:all 1s; -moz-transition: all 1s; -ms-transition: all 1s;} nav li:hover > a:before{display: block; width: 80%; left: 5px;}
 nav li:first-child{margin-left:10px;} nav li:last-child{background: linear-gradient(170deg, #ffbc2e, rgb(255, 199, 76) 49.58%, #e0ae63); font-weight: bold; color: #fff;} nav li:last-child a{color: #434659;} nav li:last-child a:hover:before{ display: none;} nav ul.dropdown{width: 250px; display: none ; position: absolute; float: none ; padding: 0px; margin: 0px; }
 nav ul.dropdown li{float: none; margin: 0px; border: none; display: block; position: relative; width: 100%; background-color:#000; border-bottom: 1px solid rgba(255, 255, 255, 0.5); font-weight: normal;}nav ul.dropdown li:before{content: ''; display: none; width: 2px; height: 42px; top: 0px; left: 0px; background: #fff; position: absolute;transition:all .5s; -webkit-transition:all .5s; -moz-transition: all .5s; -ms-transition: all .5s;}
 nav ul.dropdown li:hover{ background-color:#fff; border: none;} nav ul.dropdown li:hover > a:before{display: none;} nav ul.dropdown li a:hover{background-color:#fff; color: #333;} nav ul.dropdown li:hover:before{display: none} ul.dropdown li:last-child{border-bottom: 0px; font-weight: normal; background:#000;}
@@ -115,7 +121,7 @@ nav li:hover > ul.dropdown{display: block; margin-top: 0px;} ul.rel-links{displa
 nav.scrolled {margin-top:0px;;}
 nav.scrolled li a{color: #fff;}
 div.menu{position: absolute; width: 100%; top:0px;} #close{position: absolute; right: 0; margin: 15px; border: 1px solid; padding: 10px 13px; border-radius: 50px; cursor: pointer}
-div.mobile-menu{display: none; float: left; padding: 0%; width: 100%; z-index: 999999;} div.mobile-menu i.fa-bars{ float: right; font-size: 32px; cursor: pointer; margin-top: 35px; margin-right: 5%; color: #fff;} header.bg-white  div.mobile-menu i.fa-bars{color: #333;} div.mobile-menu .logo{float: left;  width: 20.3%; margin-top: 5px; padding: 2px;  position: relative; overflow: hidden;} div.mobile-menu .logo img{width: 100%;}
+div.mobile-menu{display: none; float: left; padding: 0%; width: 100%; z-index: 999999;} div.mobile-menu i.fa-bars{ float: right; font-size: 32px; cursor: pointer; color: #fff; margin-top: 0px; line-height: 50px; margin-right: 5%; color: #fff;}  div.mobile-menu .logo{float: left;  width: 20.3%; margin-top: 5px; padding: 2px;  position: relative; overflow: hidden;} div.mobile-menu .logo img{width: 100%;}
 i.bar-close{display:none;}
  div.mobile-menu ul{width: 100%; padding:20px 35px; overflow-x: hidden; position: relative; display: none; height: 0px; margin: 0px 0px 0px 0px;  background: #fff; margin-right: -35px;  margin-top: 0px; transition: height .5s; -moz-transition: height .5s; -webkit-transition: height .5s; -ms-transition: height .5s;} div.mobile-menu ul ul{margin-top: 0px; margin-right: 0px; margin-left: 0px; background: none; height: auto !important; padding: 0px;} div.mobile-menu ul li{ color: #666;  float: left; width: 100%; display: block; position: relative;} div.mobile-menu li li{margin-left: 0px; padding: 5px; background: #f4f1f1; border-bottom: 1px solid #e0dddd;} .bar-close{display: none;} .hide-bar{display: none;} .show-bar{display: block;} ul.mbl-menu a{ color: #000 !important;  float: left; text-transform: capitalize; padding: 5px 0px;}
 .events{min-height: 500px; background-position: left; background-size: 200% 75%; background-repeat: no-repeat; float: left;} .events >.container{margin: 45px 0px; padding: 0px 40px; width: 100%;} .mid-space{padding: 5% 7.5%;}
@@ -146,12 +152,29 @@ i.bar-close{display:none;}
         margin: 0px auto;
         font-size: 52px;
         text-align: center;}
-    .secondary-color > .all-caps{color: #fff; text-align: left; float: left; width: 100%; margin: 20px 0px;} .secondary-color > .all-caps:after{background: #fff;  margin: 20px 0px;} .gallery{background-image: url(../img/logo-black.png); background-position: left; background-size: 60% 65%; background-repeat: no-repeat;}
+section.set-bg-base{
+    padding-top: 160px;
+    background-image: url(../img/banners/b11.jpg);
+    background-attachment: fixed;
+    margin-top: 0px;
+}        
+section.set-bg-base::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content:'';
+    background: rgba(0, 0, 0, 0.79);
+    top:0px;
+    left:0px;
+    display:block;
+    z-index: 0;
+}
+.secondary-color > .all-caps{color: #fff; text-align: left; float: left; width: 100%; margin: 20px 0px;} .secondary-color > .all-caps:after{background: #fff;  margin: 20px 0px;} .gallery{background-image: url(../img/logo-black.png); background-position: left; background-size: 60% 65%; background-repeat: no-repeat;}
  .gallery .all-caps{color: #fff; text-align: left; float: left; width: 100%; margin: 20px 0px;} .gallery .all-caps:after{background: rgb(255, 200, 155);  margin: 20px 0px;} .gallery img{width: 100%; opacity: 0.75;}
 footer h4{text-transform: uppercase; font-size: 25px; margin: 25px 0px;} footer h4:after{display: block; content: ''; width: 24px; height: 1px; background: rgb(255, 200, 155); margin: 10px 0px; position: relative;} footer li a{text-transform: capitalize;} footer a:hover{color: #415d36;}
 div.title > h3{font-size: 20px; margin-bottom: 0px; color: #fff; font-weight: bold;}
 .aside{padding: 20px 0px;}section.page div.col-md-6:after{ display: block;width: 1px;height: 100%;background: #efeef0;content: '';position: absolute;top: 0%;right: -5%;} section.page div.col-md-8{padding: 0px; padding-right: 60px;} section.page div.col-md-8:after{ display: block;width: 1px;height: 100%;background: #efeef0;content: '';position: absolute;top: 0%;right: 3%;} section.page ul,ol{ list-style-type: disc;} section.page  li{ width: 100%; display:list-item; float: none; font-size: 14px;}
-div.container{width: 90%; margin: 0% 5%;float: left; display: block; position: relative;}
+div.container{width: 90%; margin: 0% 5%;float: left; display: block; position: relative;z-index: 999;}
 div.footer{display: block; width: 100%; height: auto; background: #000; color: #fff; float: left; position: relative; padding: 10px 0px; font-weight: 200; margin-top: 30px; border-top: 1px solid rgba(117, 123, 123, 0.17);} div.footer div.col-md-6{padding: 15px;}
 div.head-banner{display: block; margin: 15px auto; width: 65%; height: 130px; background: #ccc;}
 div.ad-banner-1{display: block; margin: 15px auto; width: 65%; height: 100px; background: #ccc;}
@@ -224,8 +247,8 @@ z-index: 1;
 section.banner-inner:after{content: "";
 display: inline-block;
 width: 100%;
-height: 4px;
-background: linear-gradient(to left, rgba(34, 197, 95, 0.93), rgba(78, 177, 26, 0.9) 21.43%, rgba(198, 252, 191, 0.87) 50.84%, rgba(111, 198, 47, 0.82) 77.31%, rgba(45, 185, 147, 0.76));
+height: 215px;
+background: linear-gradient(rgba(0, 0, 0, 0), rgba(1, 3, 2, 1));
 bottom: 0;
 left: 0;
 -webkit-transform:none;
@@ -306,6 +329,17 @@ div.product-box-cont:hover p{
     margin-top: 10px;
     display: block;
     opacity: 1;   
+}
+div.product-box p.opaque{ opacity: 1; margin: 0px;}
+div.product-box ul{
+    margin: 30px 0px;
+}
+div.product-box li{
+    line-height: 39px;
+    margin-left: -40px;
+    background: #222;
+    padding-left: 21px;
+    margin-bottom: 1px;
 }
 section.inner-banner-2{
     background:linear-gradient(60deg, #44ffe5, rgb(35, 124, 207) 40.76%, #294c79); 
@@ -504,7 +538,7 @@ h4.center::after{
 #scrl{display: none;}
 #scrl img.logo{width: 50%; float: left; display: block; padding: 0px; position: absolute; margin-top: 0%;} #scrl nav a{line-height: 60px;} #scrl nav ul.dropdown li a{line-height: 50px;}.bg-shade{box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.15);} .fixed{ position: fixed;} .box-shadow{box-shadow: 0px 0px 5px #000;} .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control{background-color: #e7f6e7; color: #fff; font-weight: bold;} #totalLoan{font-size: 25px; font-weight: bold; width: 100%; position: relative; float: left; display: block;} #monthlyPay{font-size: 20px; font-weight: bold; width: 100%; position: relative; float: left; display: block;} .output{color: #333; display: block; position: relative; float: left; width: 100%; background-color: #fff; padding: 15px 15px; margin: 15px 0px; border-radius: 10px; transition:all 1s; -webkit-transition:all 1s; -moz-transition: all 1s; -ms-transition: all 1s;} .output h4{color: #333;} .output h5{color: #333;} #monthP{display: none;} #totalP{display: none;}
 
-div.loan_form{position: fixed; z-index: 99999; width: 100%; display: none; top: 0%; background: rgba(255, 255, 255, 0.98); height: 100%; background-color: rgb(243, 243, 244); background-image: linear-gradient(white 0px, rgb(249, 249, 249) 150px, rgb(243, 243, 244) 352px);} div.loan_form div.container{margin: 2% 5%;} .sect-form{display: none; position: relative; float: left; width: 10%; margin: 1% 15%; transition: all .5s; -webkit-transition: all .5s; -ms-transition: all .5s; -moz-transition: all .5s; animation-delay: .2s;}  .sect-form label{font-size: 14px; text-transform: capitalize; text-align: left; width: 100%; display: block; margin: 5px auto;}  .sect-form li.sect-box{ padding: 0px; margin: 0px;} .current{ display: block; width: 70%;} .sect-form button{float: none; margin: 5px auto; display: block; background: none; color: #979797; font-size: 20px;} .sect-form i.fa{font-size: 18px; line-height: 55px;} .sect-form button:hover{ background: none; color: #373b3e;} .sect-form-logo{width: 100px; position: absolute; left: 10%; top: 5%;} .sect-form .form-group{float: left; text-transform: capitalize;} .sect-form input{text-transform: capitalize;}  .sect-form .form-control{text-transform: capitalize;} .sect-form li{float: left; margin-right: 5px;} .sect-form h4:after{display: none;}span.cls-form{position: absolute; top: 20px; right: 25px; display: block; width: 30px; height: 30px; text-align: center; border-radius: 100px; background: #333; color: #fff; cursor: pointer; transition:all 1s; -webkit-transition:all 1s; -moz-transition: all 1s; -ms-transition: all 1s; z-index: 9999999;} span.cls-form i.fa{margin: 8px;}  span.cls-form:hover{background: #eee;}  span.cls-form:hover i.fa{color: #333;}
+.sect-form{display: none; position: relative; float: left; width: 10%; margin: 1% 15%; transition: all .5s; -webkit-transition: all .5s; -ms-transition: all .5s; -moz-transition: all .5s; animation-delay: .2s;}  .sect-form label{font-size: 14px; text-transform: capitalize; text-align: left; width: 100%; display: block; margin: 5px auto;}  .sect-form li.sect-box{ padding: 0px; margin: 0px;} .current{ display: block; width: 70%;} .sect-form button{float: none; margin: 5px auto; display: block; background: none; color: #979797; font-size: 20px;} .sect-form i.fa{font-size: 18px; line-height: 55px;} .sect-form button:hover{ background: none; color: #373b3e;} .sect-form-logo{width: 100px; position: absolute; left: 10%; top: 5%;} .sect-form .form-group{float: left; text-transform: capitalize;} .sect-form input{text-transform: capitalize;}  .sect-form .form-control{text-transform: capitalize;} .sect-form li{float: left; margin-right: 5px;} .sect-form h4:after{display: none;}span.cls-form{position: absolute; top: 20px; right: 25px; display: block; width: 30px; height: 30px; text-align: center; border-radius: 100px; background: #333; color: #fff; cursor: pointer; transition:all 1s; -webkit-transition:all 1s; -moz-transition: all 1s; -ms-transition: all 1s; z-index: 9999999;} span.cls-form i.fa{margin: 8px;}  span.cls-form:hover{background: #eee;}  span.cls-form:hover i.fa{color: #333;}
 a.header-links{display: block; float: right; padding: 5px 10px; margin: 2px 0px; color: #fff; line-height: 30px; font-weight: 500; background: rgb(255, 200, 155);} a.header-links:hover{background: #fff; color: #000;}
 .notice{background-color: #ff8e0b; padding: 3px 11px; color: #fff; font-weight: bold; display: none; width: 100%;}
 
@@ -632,3 +666,5 @@ div.profile-img{width: 100%; height: 330px; position: relative; overflow: hidden
 div.form-box{margin: 0px 30%;float: left;display: block;width: 40%; background: #333;} div.form-box form{display: block; float: left; width: 100%;} div.form-box .col-md-6{text-align: center;} div.form-box .col-md-6:after{display: none !important;} div.form-box .col-md-6 h4{line-height: 40px; color: #fff;} div.form-box .col-md-6 h4:after{display: none !important;}  div.form-box .col-md-6:first-child{background: #fff;} div.form-box div.col-md-12{padding: 0px;} div.form-cont{float: left;width: 100%;padding: 30px;} div.login{ background: #fff;} div.form-box form .form-group label{text-align: left; display: block; text-transform: capitalize; font-weight: 500;} div.form-box .btn{border-radius: 0px; padding: 10px 20px; text-transform: capitalize; font-weight: 500;} div.form-box .btn-success{width: 100%; font-size: 16px;} #login{display: none;} div#login{color: #fff;} div#login label{color: #fff;}
 #login-btn{cursor: pointer; width: 50%; float: left;}#regis-btn{cursor: pointer; width: 50%; float: left;} .btn-success-cus{border-radius: 0px; margin: 25px auto; float: none;
 display: block; width: 220px; padding: 15px 30px; font-size: 17px; text-align: center; text-transform: capitalize; font-weight: 600;} div.success-notify h3{font-size: 35px;} div.success-notify{padding: 40px; background: #fff; color: #333; text-transform: capitalize; font-size: 18px; margin-bottom: -40px;display: block;float: left;width: 100%;} div.success-msg{ padding: 10% 15%; text-align: center; font-size: 16px;}  div.success-msg i.fa{font-size: 100px;} div.success-msg h3{font-size: 35px;}
+
+.marg-Top-Off-200{margin-top: -200px;}
