@@ -163,17 +163,17 @@ type="text/css"
     </section>    
     <section class="no-margin">
         <div class="container">
-                <form action="" class="bookings">
+                <form action="" class="bookings" method="POST">
                     <div class="col-md-4 form-group">
-                        <select class="form-control">
-                            <option value="">Select Yacht</option>
-                            <option value="">Option 2</option>
-                        </select>
+                        <select class="form-control" name="type" id="selectPackage">
+                            <option value="-1">Select Yacht</option>
+                            <option value="1">Eugene 1</option>
+                            <option value="2">Eugene</option>
+                         </select>
                     </div>
                     <div class="col-md-4 form-group">
-                        <select class="form-control">
-                            <option value="">Select Package</option>
-                            <option value="">Option 2</option>
+                        <select class="form-control" name="package" id="listPackage">
+                            <option value="-1">Select Package</option>
                         </select>
                     </div>
                     <div class="col-md-4 form-group">
@@ -371,5 +371,24 @@ type="text/css"
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/news-ticker.js"></script>    
     <script type="text/javascript" src="js/main.js"></script>
+
+    <script>
+        $(document).ready(function() {
+
+            $('#selectPackage').change(function(e) {
+                const target = $(e.target);
+                const package = target.val();
+                
+                const packages = {
+                    1: [{id: -1, name: "Select Package"}, {id: 1, name: "Prestige Package"}, {id: 2, name: "Deluxe Package"}, {id: 3, name: "Royal Package"}],
+                    2: [{id: -1, name: "Select Package"}, {id: 4, name: "Silver Package"}, {id: 5, name: "Gold Package"}],
+                }
+
+                const options = packages[package].map( item => '<option name="' + item.id + '">' + item.name + '</option>' );
+
+                $('#listPackage').html(options);
+            })
+        })
+    </script>
 </body>
 </html>
