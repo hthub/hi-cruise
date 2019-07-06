@@ -467,7 +467,7 @@
     width: auto;
   }
   .styled-border::after {
-    margin-top: 10%;
+    top: 10%;
   }
 }
 
