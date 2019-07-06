@@ -258,15 +258,15 @@
                         <div class="sc_property_search">
                            <form method="get" action="#">
                               <div class="sc_ps_status">
-                                 <select name="type" id="selectPackage">
-                                    <option value="-1">Select Yacht</option>
+                                 <select name="type" id="selectPackage" required>
+                                    <option value="">Select Yacht</option>
                                     <option value="1">Eugene 1</option>
                                     <option value="2">Eugene</option>
                                  </select>
                               </div>
                               <div class="sc_ps_location">
-                                 <select name="package" id="listPackage">
-                                    <option value="-1">Select Package</option>
+                                 <select name="package" id="listPackage" required>
+                                    <option value="">Select Package</option>
                                  </select>
                               </div>
                               <!--div class="sc_ps_type">
@@ -675,8 +675,8 @@
                   const package = target.val();
                   
                   const packages = {
-                      1: [{id: -1, name: "Select Package"}, {id: 1, name: "Prestige Package"}, {id: 2, name: "Deluxe Package"}, {id: 3, name: "Royal Package"}],
-                      2: [{id: -1, name: "Select Package"}, {id: 4, name: "Silver Package"}, {id: 5, name: "Gold Package"}],
+                      1: [{id: '', name: "Select Package"}, {id: 1, name: "Prestige Package"}, {id: 2, name: "Deluxe Package"}, {id: 3, name: "Royal Package"}],
+                      2: [{id: '', name: "Select Package"}, {id: 4, name: "Silver Package"}, {id: 5, name: "Gold Package"}],
                   }
 
                   const options = packages[package].map( item => '<option name="' + item.id + '">' + item.name + '</option>' );
