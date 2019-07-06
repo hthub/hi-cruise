@@ -133,6 +133,10 @@
   nav a {
     font-size: 14px;
   }
+  .bordered {
+    float: left;
+    width: 100%;
+  }
 }
 
 @media (max-width: 992px) {
@@ -207,9 +211,10 @@
   }
   div.mobile-menu .logo {
     width: auto;
-    height: 75px;
+    height: 50px;
     position: absolute;
     margin-top: 0px;
+    padding: 5px;
   }
   section.product div.col-md-3 {
     min-height: 500px;
@@ -486,12 +491,13 @@
   }
   #myCarousel .carousel-controls {
     width: 100px;
-    bottom: 3%;
+    bottom: 200px;
+    right: 10%;
     height: 80px;
   }
   .carousel-control i.fa {
-    font-size: 50px;
-    line-height: 80px;
+    font-size: 40px;
+    line-height: 50px;
   }
   .carousel-caption h4 {
     font-size: 28px;
@@ -518,6 +524,10 @@
   }
   nav ul {
     display: none;
+  }
+  span.sp-cap {
+    font-size: 32px;
+    line-height: 30px;
   }
   div.news-update {
     padding-left: 0%;
@@ -577,6 +587,14 @@
   .all-caps {
     font-size: 25px;
   }
+  div.pic-holder img {
+    width: 100%;
+    height: auto;
+  }
+  div.pic-holder img.current {
+    width: 100%;
+    height: auto;
+  }
   section.banner-inner {
     height: 350px;
   }
@@ -603,6 +621,16 @@
   }
   div.success-msg h3 {
     font-size: 28px;
+  }
+  .styled-border::after {
+    width: 100%;
+    margin: 0%;
+    left: 0%;
+  }
+  .styled-border-2::after {
+    width: 100%;
+    margin: 0%;
+    left: 0%;
   }
 }
 
