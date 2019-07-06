@@ -486,8 +486,11 @@
 }
 
 @media (max-width: 640px) {
+  section.banner {
+    margin-top: 60px;
+  }
   .carousel-inner {
-    height: 650px;
+    height: 350px;
   }
   #myCarousel .carousel-controls {
     width: 100px;
@@ -505,7 +508,7 @@
     width: 90%;
   }
   div.item {
-    height: 650px;
+    height: 350px;
   }
   .listings div.item {
     height: auto;
@@ -632,6 +635,11 @@
     margin: 0%;
     left: 0%;
   }
+  div.product-box p {
+    display: block;
+    margin-top: 10px;
+    opacity: 1;
+  }
 }
 
 @media (max-width: 460px) {
@@ -682,7 +690,7 @@
     margin: 0px !important;
     width: 100% !important;
     left: 0px;
-    top: 0px;
+    top: 60px;
     position: absolute;
   }
   div.mobile-menu ul {
@@ -761,9 +769,10 @@
     top: 20%;
   }
   #myCarousel .carousel-controls {
-    width: 80px;
-    bottom: 5%;
-    height: 60px;
+    width: 100px;
+    bottom: 200px;
+    right: 10%;
+    height: 80px;
   }
   .carousel-control i.fa {
     font-size: 35px;
