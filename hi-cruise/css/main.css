@@ -83,7 +83,7 @@ header{
     position: absolute; 
     float: left; 
     width: 100%;
-    z-index: 99999;
+    z-index: 9999999;
 } 
 header::after{ 
     background:linear-gradient(rgba(0, 0, 0, 0.91), transparent);
