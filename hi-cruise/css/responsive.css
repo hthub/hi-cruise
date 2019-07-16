@@ -469,6 +469,12 @@
 }
 
 @media (max-width: 675px) {
+  header::after {
+    display: none;
+  }
+  p.cap-center {
+    font-size: 18px;
+  }
   div.upper-feat {
     display: none;
   } /*div.mobile-menu .logo{width: 10.4%;}*/
@@ -482,6 +488,9 @@
   div.featured span {
     width: 20%;
     height: 100px;
+  }
+  .img-holder::after {
+    display: none;
   }
 }
 
