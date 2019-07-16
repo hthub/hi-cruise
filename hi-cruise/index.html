@@ -14,7 +14,6 @@ rel="stylesheet"
 href="css/font-awesome/css/fontawesome-all.css"
 type="text/css"
 />
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link type="text/css" href="css/slider.css" rel="stylesheet">
 <link type="text/css" href="css/main.css" rel="stylesheet">
 <link type="text/css" href="css/responsive.css" rel="stylesheet">
@@ -112,7 +111,7 @@ type="text/css"
         <div class="carousel-inner">
         
             <div class="item active">
-            <img src="img/banners/bn10.jpg">
+            <img src="img/banners/new2.jpg">
             <!--div class="carousel-caption downUp">
                 <div class="banner-content">
                     <h4 class="fallDown">get business credit and financing for your company</h4>
@@ -122,21 +121,9 @@ type="text/css"
                 </div>
             </div-->
             </div><!-- End Item -->
-
-            <div class="item">
-                <img src="img/banners/bn7.jpg">
-            </div>
-
-            <div class="item">
-                <img src="img/banners/bn8.jpg">
-            </div>
-
-            <div class="item">
-                <img src="img/banners/bn9.jpg">
-            </div>
     
             <div class="item">
-                <img src="img/banners/bn02.jpg">
+                <img src="img/banners/new3.jpg">
             <!--div class="carousel-caption downUp">
                 <div class="banner-content">
                     <h4 class="fallDown">asset, business and project financing</h4>
@@ -148,7 +135,7 @@ type="text/css"
             </div><!-- End Item -->
             
             <div class="item">
-                <img src="img/banners/bn01.jpg">
+                <img src="img/banners/new5.jpg">
             <div class="carousel-caption downUp">
                 <!--div class="banner-content">
                     <h4 class="fallDown">fund management</h4>
@@ -158,6 +145,18 @@ type="text/css"
                 </div-->
             </div>
             </div><!-- End Item -->      
+            
+            <div class="item">
+                <img src="img/banners/bn03.jpg">
+            <div class="carousel-caption downUp">
+                <!--div class="banner-content">
+                    <h4 class="fallDown">fund management</h4>
+                    <p class="downUp">with years of experience managing our own funds, we also help businesses manage their funding as well. by employing proven methodologies, you are guaranteed to succeed.</p>
+                    <span class="call-to-action"> <a href="about.html"> learn more </a></span> 
+                    <span class="call-to-action green-btn"> <a href="about.html"> apply now </a></span>
+                </div-->
+            </div>
+            </div><!-- End Item --> 
 
         </div><!-- End Carousel Inner -->
 
@@ -175,17 +174,17 @@ type="text/css"
     </section>    
     <section class="no-margin">
         <div class="container">
-                <form action="" class="bookings" method="POST">
+                <form action="" class="bookings">
                     <div class="col-md-4 form-group">
-                        <select class="form-control" name="type" id="selectPackage" required>
+                        <select class="form-control">
                             <option value="">Select Yacht</option>
-                            <option value="1">Eugene 1</option>
-                            <option value="2">Eugene</option>
-                         </select>
+                            <option value="">Option 2</option>
+                        </select>
                     </div>
                     <div class="col-md-4 form-group">
-                        <select class="form-control" name="package" id="listPackage" required>
+                        <select class="form-control">
                             <option value="">Select Package</option>
+                            <option value="">Option 2</option>
                         </select>
                     </div>
                     <div class="col-md-4 form-group">
@@ -193,7 +192,19 @@ type="text/css"
                     </div>
                 </form>
         </div>
-    </section>  
+    </section>      
+    <section class="secondary-color no-margin pad-5">
+        <div class="container">
+            <div class="col-md-12">
+                <p class="cap-center">
+                        Welcome to Hi-Impact Cruise, owners of Nigeria's biggest luxury yacht. We
+                        are an on-sea venue for all your events. Explore unimaginable fun on our
+                        impressive yachts as we promise to give you a unique experience like never
+                        before in Nigeria.
+                </p>
+            </div>
+        </div>
+    </section>
     <section class="">
         <div class="container">
             <h4 class="all-caps">Our Yachts</h4>
@@ -383,24 +394,5 @@ type="text/css"
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/news-ticker.js"></script>    
     <script type="text/javascript" src="js/main.js"></script>
-
-    <script>
-        $(document).ready(function() {
-
-            $('#selectPackage').change(function(e) {
-                const target = $(e.target);
-                const package = target.val();
-                
-                const packages = {
-                    1: [{id: '', name: "Select Package"}, {id: 1, name: "Prestige Package"}, {id: 2, name: "Deluxe Package"}, {id: 3, name: "Royal Package"}],
-                    2: [{id: '', name: "Select Package"}, {id: 4, name: "Silver Package"}, {id: 5, name: "Gold Package"}],
-                }
-
-                const options = packages[package].map( item => '<option value="' + item.id + '">' + item.name + '</option>' );
-
-                $('#listPackage').html(options);
-            })
-        })
-    </script>
 </body>
 </html>
